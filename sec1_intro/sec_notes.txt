@@ -1,0 +1,24 @@
+Introduction
+
+ How does the web works?
+  - A user enters a (Uniform Resource Locator) url address.
+  - The browser sends an http(s) REQUEST to a remote web server (The website server the
+    the user is trying to browse.) 
+  - The web server receives that http request, checks it's content, and based on
+    that request content sends a RESPONSE back to the browser with instructions.
+  - The browser receives the response and render it.
+
+
+Languages used/needed in web development.
+- HTML  
+ - The building blocks of webpages.
+ - The content and structure of the displayed page.
+
+- CSS
+ - The styling of the displayed page and its content
+
+- JavaScript (JS)
+ - JS gives interactivity and functionality to websites.
+
+
+
