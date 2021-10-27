@@ -1,0 +1,29 @@
+How to create a website?
+ - Our own computer, can act as an offline temporary development server.
+ - A browser to view webpages. The recommended is Google-Chrome.
+ - An HTML file, a regular text file that includes html code which in return 
+   will be rendered on the browser webpage. 
+
+
+HTML
+
+ - Understanding HTML elements
+    <h1 attribute="value">Hello World!</h1>
+
+    HTML element: <opening tag attribute="value">Element content</closing tag>
+ - Elements tell the browser which kind of content is displayed (headings, text,
+   images, lists, buttons, etc).
+
+ - Telling the browser that something is a <title>, <subtitle>, or <image> 
+   allows the browser to present that content correctly:
+    - It regulars visitors of your website.
+    - To search engine crawlers.
+    - To visitors using assistive technologies (e.g. screen readers)
+
+
+CSS:
+ 
+ CSS Rules:
+  - Selector : declaration block{
+    property/declaration: value/style;
+  }
