@@ -23,7 +23,43 @@ HTML
 
 CSS:
  
- CSS Rules:
-  - Selector : declaration block{
+ - CSS Rules:
+  Selector : declaration block{
     property/declaration: value/style;
   }
+ 
+ - colors types in CSS
+  - Ready colors   color: red;
+  - Hex decimals   color: #fff;
+  - rgb and rgba   color: rgb(155, 200, 255), rgba(155, 200, 255, 0.5)
+
+  - Global CSS
+   - using <style> html element
+
+  CSS rules:
+   - selector {
+     property: value
+   }
+   p (type selector) {
+     // selector body
+     color (property): red; (value)
+   }
+
+The anatomy of a valid HTML document (page)
+<!DOCTYPE html>
+<html>
+  - metadata elements
+  <head>
+  <title>
+  </title>
+  </head>
+
+  - visible elements
+  <body>
+    <h1>Hello, world!</h1>
+  </body>
+</html>
+
+- What is Emmet?
+  A built-in plug-in which helps in auto-completing and auto-creating of HTML
+  elements.
