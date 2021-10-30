@@ -48,10 +48,13 @@ CSS:
 The anatomy of a valid HTML document (page)
 <!DOCTYPE html>
 <html>
-  - metadata elements
+
   <head>
-  <title>
-  </title>
+   <!--meta HTML elements-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link *rel="stylesheet" type="text/css" href="../css/style.css">
   </head>
 
   - visible elements
@@ -60,6 +63,17 @@ The anatomy of a valid HTML document (page)
   </body>
 </html>
 
+- rel defines the kind of relationship between the linked file with the html 
+  file.  rel="stylesheet" tells the browsers, that we're linking a file full of
+  CSS style definitions.
+
+
+
 - What is Emmet?
   A built-in plug-in which helps in auto-completing and auto-creating of HTML
   elements.
+
+- IDs
+  - IDs can be used as an HTML element attribute to style a specific HTML 
+    element.
+  - IDs should be unique
