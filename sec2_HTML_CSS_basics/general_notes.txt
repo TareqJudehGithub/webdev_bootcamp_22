@@ -20,6 +20,8 @@ HTML
     - To search engine crawlers.
     - To visitors using assistive technologies (e.g. screen readers)
 
+ - <pre> HTML element
+  - <pre> ignores HTML rendering and display its content as plain text.
 
 CSS:
  
@@ -67,7 +69,11 @@ The anatomy of a valid HTML document (page)
   file.  rel="stylesheet" tells the browsers, that we're linking a file full of
   CSS style definitions.
 
-
+- text-align: center;  
+  - center the content of the HTML element but not the element it self.
+  - We CANNOT center an <img> element, because of the point mentioned right 
+    above. We should wrap the <img> element in a parent element and center that
+    element.
 
 - What is Emmet?
   A built-in plug-in which helps in auto-completing and auto-creating of HTML
@@ -77,3 +83,11 @@ The anatomy of a valid HTML document (page)
   - IDs can be used as an HTML element attribute to style a specific HTML 
     element.
   - IDs should be unique
+
+- Psuedo selectors:
+  - A CSS selector like :hover that allows you to set styles for an element that
+    fulfills a certain condition (e.g. the mouse cursor hovers over it).
+
+  a:hover {
+	text-decoration: underline;
+}
