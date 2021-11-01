@@ -1,4 +1,4 @@
-/* body {
+body {
 	text-align: center;
 	background-color: rgb(223, 215, 207);
 	color: rgb(83, 75, 75);
@@ -17,4 +17,8 @@ a {
 a:hover {
 	color: rgb(83, 75, 75);
 	text-decoration: underline;
+}
+
+/* li {
+	list-style: none;
 } */
