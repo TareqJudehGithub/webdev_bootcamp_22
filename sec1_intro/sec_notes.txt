@@ -14,6 +14,16 @@ Languages used/needed in web development.
  - The building blocks of webpages.
  - The content and structure of the displayed page.
 
+ - Semantic HTML
+ <header>
+    - h1  usually describes the main header in a webpage.
+ <main>
+  
+ <footer>
+ 
+
+
+
 - CSS
  - The styling of the displayed page and its content
 

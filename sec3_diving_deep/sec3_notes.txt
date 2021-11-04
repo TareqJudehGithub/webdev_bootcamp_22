@@ -1,0 +1,55 @@
+Inheritance
+ - Inheritance means, that the selected container rules apply to descendants.
+ 
+
+Cascading
+ - Multiple rules can be applied to the same element.
+  h1 {
+    color: red;
+    font-weight: bold;
+  }
+
+Specificity
+ - The more specific CSS rule wins.
+
+  Specificity order (from most specific to the less specific):
+   1. Inline style (attribute)
+   2. ID
+   3. Class
+   4. HTML element
+
+
+CSS Selectors
+  - HTML Element      <p>             
+  - Group Elements    h1, h2, h3
+  - ID                #id             Can be used for only one element.
+  - class             .class-name     Can be used for multiple elements.
+
+CSS Combiners
+
+Descendants           li p            All o with li as ancestor
+Child                 h2 > p          Only p which are direct children of h2
+
+
+Inline vs. block-level elements
+ - Block elements use the full width of a webpage.
+ - Block elements always starts in a new line.
+ 
+ - Inline elements are quite the opposite, they don't create new lines a they
+   use the full width of a webpage.
+ - Examples of block elements are div, p, and ol/ul
+ - Inline are part of block elements, for instance <p> <strong>Hi</strong> </p>
+ - Examples of inline elements are anchors, buttons, image, and span elements.
+ - * We cannot apply vertical margins to inline elements.
+
+Margin Collapse
+- Top and bottom margins of elements are sometimes collapsed into a single margin 
+ that is equal to the largest of the two margins.
+
+
+box-shadow: (off-set x-axis) (off-set y-axis) (blur radius) (color);
+box-shadow: 5px 2px 5px rgba(100, 50, 125, 0.5);
+
+
+
+
