@@ -92,4 +92,7 @@ The anatomy of a valid HTML document (page)
 	text-decoration: underline;
 }
 
+ text-align: center;
+  - text-align: center; ONLY affects inline elements and not blocks; because
+    block elements has a width of 100% and forces a line break.
 

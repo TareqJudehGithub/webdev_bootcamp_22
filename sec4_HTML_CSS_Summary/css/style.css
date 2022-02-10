@@ -47,8 +47,10 @@ a {
 	padding: 3px;
 	border-radius: 3px;
 }
-a:hover {
+a:hover,
+a:active {
 	background-color: rgb(218, 197, 145);
+	color: #4f4f4f;
 }
 button {
 	font-size: 18px;

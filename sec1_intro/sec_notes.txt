@@ -31,4 +31,11 @@ Languages used/needed in web development.
  - JS gives interactivity and functionality to websites.
 
 
+Caching
+ - What is caching?
+   Caching is Caching (pronounced “cashing”) is the process of storing data in 
+   a cache. A cache is a temporary storage area. ... When you return to a page 
+   you've recently looked at, the browser can get those files from the cache 
+   rather than the original server, saving you time and saving the network the 
+   burden of additional traffic.
 

@@ -1,0 +1,4 @@
+Websites Hosting and Deployment
+
+Deployment is moving a website code into a remote machine (server).
+Hosting means that the server hosts a website, and serves it visitors.
