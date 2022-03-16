@@ -22,6 +22,8 @@ HTML
 
  - <pre> HTML element
   - <pre> ignores HTML rendering and display its content as plain text.
+  - Wide elements are HTML tags that have no closing tags but only contain attributes, 
+    like the <link> element
 
 CSS:
  
@@ -48,7 +50,7 @@ CSS:
    }
 
 The anatomy of a valid HTML document (page)
-<!DOCTYPE html>
+<!DOCTYPE html>  => HTML version
 <html>
 
   <head>
@@ -70,9 +72,9 @@ The anatomy of a valid HTML document (page)
   CSS style definitions.
 
 - text-align: center;  
-  - center the content of the HTML element but not the element it self.
+  - center the CONTENT of the HTML element but not the element it self.
   - We CANNOT center an <img> element, because of the point mentioned right 
-    above. We should wrap the <img> element in a parent element and center that
+    above. We should wrap the <img> element in a parent element (like <body> element) and center that
     element.
 
 - What is Emmet?
