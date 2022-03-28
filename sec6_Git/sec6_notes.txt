@@ -1,0 +1,21 @@
+Git
+  - Git is an Efficient version control and tracking of code changes over time.
+  - Git controls different versions of a project in a so called repositories.
+  - Version control save making copies of our code.
+
+Github
+  - A "Cloud hosting provider" for Git repositories.
+  - Collaboration in and contributing to web development projects.
+
+
+Human Computer Interaction
+
+
+GUI Graphical user interface 
+  - Windows-based human computer Interaction
+CLI Command Line interface
+  - Terminal-based human computer Interaction
+
+
+
+Git commands

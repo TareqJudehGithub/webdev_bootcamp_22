@@ -33,9 +33,15 @@ Caching
  - What is caching?
    Caching is Caching (pronounced “cashing”) is the process of storing data in 
    a cache. A cache is a temporary storage area. ... When you return to a page 
-   you've recently looked at, the browser can get those files from the cache 
+   you've recently looked at, the browser can get those files from the cache folder
    rather than the original server, saving you time and saving the network the 
-   burden of additional traffic.
+   burden of additional traffics.
+
+Absolute path VS Relative path
+
+  - Absolute path shows/starts from the file path right from the root folder.
+  - Relative path shows/starts from the current working directory.
+
    
 
  
