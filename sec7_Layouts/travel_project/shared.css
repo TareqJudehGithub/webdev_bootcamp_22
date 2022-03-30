@@ -1,7 +1,20 @@
 body {
 	font-family: "Quicksand", sans-serif;
+	margin: 0;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul a {
+	text-decoration: none;
 }
 header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 60px;
 }
 #page-logo a {
 	font-family: "Oleo Script", sans-serif;
@@ -11,12 +24,11 @@ header {
 	text-decoration: none;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+	text-decoration: none;
 }
-ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+header ul {
+	display: flex;
 }
-ul a {
-	/* text-decoration: none; */
+header li {
+	margin-left: 20px;
 }

@@ -2,3 +2,11 @@ Flex-box
 
 Flex-box allows us to manage the space or the way that elements are aligned aligned
 and positioned inside.
+
+	flex-wrap: wrap; /* Wraps HTML elements for smaller screens.*/
+	justify-content: space-between; /*  Justify contents horizontally */
+	align-items: center; /* Align items vertically */
+
+	Document Flow
+	 The predefined order of HTML elements.
+	 
