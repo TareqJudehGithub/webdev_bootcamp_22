@@ -6,11 +6,12 @@ Header {
 	position: static;
 }
 main ul {
-	width: 800px;
+	width: 1200px;
 	margin: 0 auto;
 }
 main li {
 	display: flex;
+	width: 500px;
 	background-color: white;
 	box-shadow: 1px 1px 4px rgba(253, 243, 243, 0.267);
 	border-radius: 6px;
