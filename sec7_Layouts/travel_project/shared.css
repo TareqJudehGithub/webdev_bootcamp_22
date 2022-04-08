@@ -40,7 +40,7 @@ header li {
 	margin-left: 20px;
 }
 .navbar-link {
-	color: rgb(255, 251, 0);
+	color: rgb(245, 243, 160);
 	text-decoration: none;
 	font-size: 20px;
 	padding: 12px;
@@ -48,8 +48,7 @@ header li {
 	border-radius: 6px;
 }
 .navbar-link:hover {
-	color: rgb(77, 77, 77);
-	background-color: rgb(255, 251, 0);
+	font-weight: bold;
 }
 section {
 }

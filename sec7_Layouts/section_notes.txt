@@ -9,4 +9,17 @@ and positioned inside.
 
 	Document Flow
 	 The predefined order of HTML elements.
-	 
+	
+	Grid System
+		display: grid;
+		grid-template-columns: 1fr 1fr;  
+		 - Defines each cell width.
+		 - 1fr unit (fraction) is usually used in grid unit measurement.
+
+		gap: 100px 200px; 
+		 - Defines spaces between rows and columns.
+		 - The first value is the space between each row, where the second
+		   value is the space between columns.
+		grid-column: 1 / span 2;
+		- Defines how many columns a grid should occupy.
+		- Value 1 / span 2 instructs CSS to occupy the entire column.

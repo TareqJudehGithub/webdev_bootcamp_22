@@ -1,21 +1,29 @@
 body {
-	background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+	background: linear-gradient(30deg, rgb(87, 86, 86), rgb(58, 58, 58));
 	color: rgb(70, 67, 67);
 }
 Header {
+	/* position: sticky;
+	background: linear-gradient(45deg, rgb(49, 47, 47), rgb(58, 58, 58)); */
 	position: static;
 }
 main ul {
 	width: 1200px;
-	margin: 0 auto;
+	margin: 0 auto 48px auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px 20px;
 }
 main li {
 	display: flex;
-	width: 500px;
 	background-color: white;
 	box-shadow: 1px 1px 4px rgba(253, 243, 243, 0.267);
 	border-radius: 6px;
 	overflow: hidden;
+}
+main li:nth-of-type(3) {
+	width: 100%;
+	grid-column: 1 / span 2;
 }
 main li img {
 	width: 300px;
@@ -23,13 +31,15 @@ main li img {
 	object-fit: cover;
 }
 .item-content {
-	padding: 24px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: start;
+	padding: 24px;
+	height: 250px;
 }
 .actions {
 	text-align: end;
+	padding-right: 24px;
 }
 .actions a {
 	color: rgb(14, 180, 185);
