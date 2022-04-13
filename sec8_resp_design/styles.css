@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	color: rgb(207, 146, 31);
+	background-color: rgb(44, 41, 38);
+}
+/* Header styling */
+header {
+	background: linear-gradient(45deg, rgb(19, 18, 18), rgb(56, 53, 51));
+}
+header ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 10px 40px;
+}
+.logo {
+	font-size: 25px;
+	padding: 10px;
+}
+.nav-links {
+	display: flex;
+	font-size: 18px;
+	padding: 10px;
+}
+.nav-items {
+	padding-left: 20px;
+}
+.logo:hover,
+.nav-items:hover {
+	color: gold;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(202, 153, 62);
+}
+
+/* Main styling */
+
+h1 {
+	margin-bottom: 25px;
+	padding: 25px;
+	text-align: center;
+	font-size: 40px;
+}
+.container {
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+}
+.container ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+.food-item {
+	list-style: none;
+	background-color: rgb(228, 206, 182);
+	height: 350px;
+	width: 100%;
+	border-radius: 6px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.food-item img {
+	height: 240px;
+	width: 100%;
+	object-fit: cover;
+}
+.item-text p {
+	color: rgb(63, 59, 59);
+	font-size: 22px;
+	font-weight: 700;
+	padding: 17px;
+	margin-bottom: 7px;
+}
+.add-cart {
+	padding: 5px 10px;
+	color: white;
+	background-color: rgb(207, 146, 31);
+	padding: 10px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.add-cart:hover {
+	background-color: rgb(240, 160, 13);
+}
+.add-cart:active {
+	background-color: rgb(207, 146, 31);
+}
