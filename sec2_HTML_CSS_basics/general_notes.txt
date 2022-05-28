@@ -4,7 +4,6 @@ How to create a website?
  - An HTML file, a regular text file that includes html code which in return 
    will be rendered on the browser webpage. 
 
-
 HTML
 
  - Understanding HTML elements

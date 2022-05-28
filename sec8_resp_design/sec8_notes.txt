@@ -1,0 +1,18 @@
+Responsive Design
+px VS % VS em VS rem
+
+px
+ - Easy to understand
+ - Limited user focus & not scalable
+
+%
+ - Relative to parent element size
+ - Hard to manage due to cascading nature
+
+em
+  - Size relative to font-size
+  - Hard to manage due to cascading nature
+
+rem
+ - Size is relative to root element's font size
+ - Preferred choice if applicable
