@@ -1,16 +1,17 @@
 Responsive Design
 px VS % VS em VS rem
 
+Units (specifically for font-size)
 px
  - Easy to understand
- - Limited user focus & not scalable
+ - Limited user focus & NOT scalable (10px will always remain 10px)
 
 %
  - Relative to parent element size
  - Hard to manage due to cascading nature
 
 em
-  - Size relative to font-size
+  - Size relative to font-size (default font-size is 16px)
   - Hard to manage due to cascading nature
 
 rem
