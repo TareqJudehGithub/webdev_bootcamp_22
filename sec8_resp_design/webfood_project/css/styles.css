@@ -30,6 +30,45 @@ a {
 #logo:hover {
 	color: rgb(228, 163, 44);
 }
+/* Hamburger button styling */
+.menu-btn {
+	width: 3rem;
+	height: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.menu-btn span {
+	width: 100%;
+	height: 3px;
+	background-color: white;
+}
+/* Side-drawer */
+#side-drawer {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(29, 26, 27);
+	/* Hide other elements */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+#side-drawer ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	padding: 4rem 1rem;
+}
+#side-drawer li {
+	margin: 1rem 0;
+}
+
+#side-drawer a {
+	color: rgb(253, 239, 213);
+	font-size: 2rem;
+}
+
 #main-header nav a {
 	color: rgb(185, 131, 31);
 	font-size: 1.25rem;
@@ -87,4 +126,25 @@ main h1 {
 }
 .btn:hover {
 	background-color: rgb(221, 134, 34);
+}
+
+/* Media Queries */
+/* For devices with max width of 786px */
+@media (max-width: 48rem) {
+	#latest-products ul {
+		grid-template-columns: 100%;
+	}
+}
+/* Nav header in Tablets and Smartphones view */
+@media (max-width: 48rem) {
+	#main-header ul {
+		display: none;
+	}
+	#main-header nav a {
+		/* font-size: 1rem; */
+	}
+	/* h1 in main element font-size decrease */
+	main h1 {
+		font-size: 1.5rem;
+	}
 }

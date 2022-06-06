@@ -1,0 +1,48 @@
+Desktop First vs Mobile first
+
+Desktop First is the traditional approach.
+Desktop First targets office-based audience.
+Desktop First allows us to create feature-rich websites.
+
+
+Mobile first
+ - More functional approach.
+ - Less space and less information.
+ - For lifestyle/news focused audience (Instagram, facebook, etc)
+
+
+Media Queries
+ - CSS code for responsive design for different screen sizes.
+ - Media Queries code in the CSS file, should always be at the end; due to CSS
+   cascading nature.
+
+
+Max-width (Desktop) ==> min-width (Mobile)
+
+Example:
+@media (min-width or max-width: 1200px) {
+  p {
+    font-size: 2rem;
+  }
+}
+
+- For Desktop we start from max-width.
+- For Mobile we start from min-width.
+
+
+Common Breakpoints for Media Queries
+
+Portrait design
+  - Smartphone        480px     (30rem)
+  - Tablet            768px     (48rem)
+
+
+Landscape design
+ - Notebook           1024px    (64rem)
+ - Desktop Computer   1200px    (75rem)  
+ - TV                 >1200px   >(75rem)
+
+Internal links
+ - Adds defined ID to URL                                   href="#id"
+ - The target selector.
+  - Activates CSS rule if defined ID is selected in URL.    #id:target
