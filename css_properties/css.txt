@@ -18,3 +18,11 @@ CSS properties Cheat Sheets
   object-fit: 
     - The CSS object-fit property is used to specify how an <img> or <video> should be 
       resized to fit its container.  
+  
+  pseudo selectors
+    - :hover
+      - apply a custom css selector when hovering over a specific HTML element.
+    
+    - :target
+      - Checks if the targeted selector is added to the URL in the browser.
+      
