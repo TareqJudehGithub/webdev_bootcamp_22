@@ -26,3 +26,16 @@ CSS properties Cheat Sheets
     - :target
       - Checks if the targeted selector is added to the URL in the browser.
       
+  
+  html vs :root vs universal *
+    - html
+      - Selects html element
+      - CS rules are applied to html element & inherited to nested elements inside
+        the html element.
+    - :root (pseudo-selector)
+      - Selects element which is the root of the document
+      - CSS rules are applied to root element & inherited to nested elements inside
+        the root element.
+    * The universal selector
+      - Selects all elements of the html document
+      - CSS rules are applied to all elements (save specificity)

@@ -1,0 +1,5 @@
+CSS Variables
+html {
+  --color-grey-100: rgb(236, 236, 236);
+  background-color: var(--color-grey-100)
+}

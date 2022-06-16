@@ -1,0 +1,9 @@
+Things to remember when creating a new website:
+  - Add different features - step by step.
+  - Think about the core information that should be transferred.
+  - Less is more - don't over style your website.
+  - Add white space to the left and right of your website and don't 
+    pack your page with content.
+  - Fonts
+      - Google Fonts are great choice for our websites.
+      - 
