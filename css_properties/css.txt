@@ -39,3 +39,6 @@ CSS properties Cheat Sheets
     * The universal selector
       - Selects all elements of the html document
       - CSS rules are applied to all elements (save specificity)
+
+- transform: scale()
+  - changes initial selector scale size.

@@ -1,0 +1,6 @@
+Transition
+ - Smooth transition from initial to transformed state.
+ - Applied to the "initial state" of the element, not on the event triggering
+   the transition.
+ - Transition format:
+      transition: property - duration - timing function - delay;
