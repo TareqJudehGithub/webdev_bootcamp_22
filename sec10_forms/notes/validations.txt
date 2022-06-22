@@ -1,0 +1,21 @@
+     - maxlength=""
+        Specifies max character users can input in a field.
+     - min="18"
+     
+
+  - <textarea>
+    - Fetches multiline text input 
+    - Used usually for comments, and feedback fields.
+
+  - <select>  
+   - A drop down multiple-choice/select inputs
+
+  - <radio>
+    - Multiple choices options, where users get to select only one of these options.
+
+  - <checkbox>
+   - A checkbox button
+   - Can be used to present a "toggle" (yes/no) option to the visitor (e.g. "Agree to terms")
+  
+  - <button> 
+    - Confirms and submit users inputs.

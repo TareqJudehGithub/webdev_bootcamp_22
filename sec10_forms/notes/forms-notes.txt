@@ -1,0 +1,24 @@
+Forms
+ - Forms are used for submitting data.
+ - Users login
+ - Email registration
+ - Contact information
+ - User feedback and comments.
+
+ - 
+
+  <form> attributes:
+    - action=""
+      - Specifies where the form submitted data will be send to.
+      - By default, data sent will be sent to the same browser URL.
+      - We can email, save to a file or a database the data submitted.
+    
+    - method=""
+      - GET or POST 
+      - GET retrieves/fetches data, while POST sends it.
+    
+    <label for="">
+      - The for="" attribute connects a label to an input.
+      - If we click on the label, the for="" element connection with the input, allows
+        us to automatically focus on that input element.
+       

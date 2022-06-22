@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(31, 30, 30);
+	font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+label {
+	color: rgb(61, 58, 58);
+}
+form {
+	background-color: rgb(255, 255, 255);
+	width: 30rem;
+	margin: 3rem auto;
+	padding: 1rem;
+	border-radius: 6px;
+}
+label {
+	margin-bottom: 0.5rem;
+}
+input,
+textarea,
+button {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+	/* height: 2rem; */
+	border: 1px solid rgb(184, 184, 184);
+	color: rgb(61, 58, 58);
+}
+input,
+textarea {
+	width: 100%;
+	padding: 0.3rem 0.3rem;
+	flex-direction: row;
+}
+input:focus,
+textarea:focus {
+	background-color: rgb(211, 203, 219);
+	color: rgb(61, 58, 58);
+	border-color: rgb(32, 5, 63);
+}
+hr {
+	margin-bottom: 1rem;
+}
+
+.form-control-inline {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	margin: 0.5rem 0.25rem 0.5rem 0.5rem;
+}
+.form-control-inline input {
+	width: 1.5rem;
+	height: 0.75rem;
+	justify-content: center;
+	margin-right: 0.5rem;
+}
+.form-control-fav-color {
+	margin-bottom: 1rem;
+}
+.form-control-fav-color select {
+	width: 5rem;
+	padding: 0.25rem;
+}
+button {
+	height: auto;
+	padding: 0.5rem 1.5rem;
+	font: inherit; /* Inherit from body selector */
+	background-color: rgb(32, 5, 63);
+	color: white;
+	align-items: center;
+	border: 1px solid rgb(32, 5, 63);
+	border-radius: 4px;
+	cursor: pointer;
+}
+button:hover {
+	background-color: rgb(60, 24, 102);
+}
