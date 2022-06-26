@@ -47,4 +47,8 @@ Forms input element types
 
   - <button> 
     - Confirms and submit users inputs.
+    - type="submit" sends user input data to the server
+    - type="reset" clears all form fields of any data.
+
+
 

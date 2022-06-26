@@ -7,7 +7,11 @@ body {
 	background-color: rgb(31, 30, 30);
 	font-family: "Roboto", sans-serif;
 }
-h1,
+h1 {
+	text-align: center;
+	color: white;
+	margin: 2rem 0 1rem 0;
+}
 h2,
 h3,
 label {
@@ -17,7 +21,7 @@ form {
 	background-color: rgb(255, 255, 255);
 	width: 30rem;
 	margin: 3rem auto;
-	padding: 1rem;
+	padding: 2rem;
 	border-radius: 6px;
 }
 label {
@@ -45,8 +49,11 @@ textarea:focus {
 	color: rgb(61, 58, 58);
 	border-color: rgb(32, 5, 63);
 }
-hr {
-	margin-bottom: 1rem;
+textarea {
+	resize: none;
+}
+li {
+	list-style: none;
 }
 
 .form-control-inline {

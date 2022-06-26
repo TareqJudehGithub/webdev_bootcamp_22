@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    >
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    >
+    <!-- CSS file link -->
+    <link
+      rel="stylesheet"
+      href="../css/styles.css"
+    >
+    <!-- Google Fonts link -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    >
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    >
+    <title>Forms</title>
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <main>
+      <h1>Personal Details</h1>
+      <form
+        action=""
+        method="GET"
+      >
+        <section>
+          <ul>
+            <li>
+              <label for="username">Your Name</label>
+              <input
+                type="text"
+                id="username"
+                name="user-name"
+                placeholder="Your name"
+                required
+                minlength="8"
+                maxlength="20"
+              >
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="john.smith@email.com"
+                required
+              >
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <label for="age">Age</label>
+              <input
+                type="number"
+                name="age"
+                id="age"
+                placeholder="18"
+                step="1"
+                min="18"
+                max="100"
+              >
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <label for="date">Birthday</label>
+              <input
+                type="date"
+                name="date"
+                id="date"
+                min="1920-01-01"
+              >
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <div class="form-control-fav-color">
+                <label for="fav-color">Favorite color: </label>
+                <select
+                  name="fav-color"
+                  id="fav-color"
+                  required
+                >
+                  <option
+                    value=""
+                    active
+                  >Choose color</option>
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                </select>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <label for="msg">Your message</label>
+              <textarea
+                name="msg"
+                id="msg"
+                cols="30"
+                rows="5"
+              ></textarea>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>Verify Account</h3>
+          <ul>
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="account"
+                id="verify-SMS"
+                value="sms"
+                required
+              >
+              <label for="verify-SMS">SMS</label>
+            </li>
+
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="account"
+                id="verify-email"
+                value="email"
+                required
+              >
+              <label for="verify-email">Email</label>
+            </li>
+
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="account"
+                id="verify-call"
+                value="call"
+                required
+              >
+              <label for="verify-call">Direct Call</label>
+            </li>
+
+            <li class="form-control-inline">
+              <input
+                type="checkbox"
+                id="agree-terms"
+                name="terms"
+                required
+              >
+              <label for="agree-terms">Agree to terms</label>
+            </li>
+
+            <li class="form-control-inline">
+              <input
+                type="checkbox"
+                id="contact-email"
+                name="contact"
+                value="cont-email"
+              >
+              <label for="contact-email">Contact by Email</label>
+            </li>
+
+            <li class="form-control-inline">
+              <input
+                type="checkbox"
+                id="contact-phone"
+                name="contact"
+                value="cont-phone"
+              >
+              <label for="contact-phone">Contact by Phone</label>
+            </li>
+          </ul>
+        </section>
+        </div>
+
+        <div>
+          <button>Submit</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>

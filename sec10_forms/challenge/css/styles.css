@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(217, 230, 235);
+	color: rgb(68, 67, 67);
+}
+main {
+	margin: 5rem auto;
+}
+h1 {
+	text-align: center;
+
+	margin-bottom: 3rem;
+}
+section {
+	margin-bottom: 0.25rem;
+}
+h2 {
+	margin-bottom: 1rem;
+}
+form {
+	width: 37.5rem;
+	display: flex;
+	flex-direction: column;
+	margin: 1rem auto;
+	padding: 1rem;
+	box-shadow: 0 1px 5px rgb(177, 183, 187);
+	border-radius: 6px;
+}
+li {
+	list-style: none;
+}
+
+input,
+textarea {
+	width: 100%;
+	resize: none;
+	margin-top: 00.25rem;
+	margin-bottom: 1rem;
+}
+input:hover,
+textarea:hover {
+	background: lightblue;
+}
+.user-name label {
+	margin-bottom: 0.25rem;
+}
+input,
+select {
+	padding: 0.45rem;
+}
+.select-list label {
+	margin-bottom: 0.25rem;
+}
+.select-list li {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+}
+.radio-btn {
+	margin-bottom: 1rem;
+}
+.radio-btn li {
+	display: flex;
+	flex-direction: row;
+	margin: 0.15rem 0.25rem;
+	align-items: baseline;
+}
+.radio-btn input {
+	width: 1rem;
+	margin: 0.5rem 1rem 0.5rem 0rem;
+}
+.btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.btn button {
+	padding: 5px 16px;
+	border-radius: 4px;
+	border: none;
+	box-shadow: 1px 0 5px rgb(121, 121, 168);
+	margin-right: 5px;
+}
+.btn button:hover {
+	background: lightblue;
+}
