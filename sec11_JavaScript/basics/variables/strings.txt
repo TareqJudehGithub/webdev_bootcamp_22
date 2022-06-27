@@ -1,0 +1,3 @@
+String in JS
+ - String in JS is a text starting and ending with a single or a double quotes.
+ 

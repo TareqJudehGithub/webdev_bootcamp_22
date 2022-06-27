@@ -1,0 +1,12 @@
+Variables in JS
+  
+  JS naming convention
+    - JS uses camel case naming convention.  let CamelCase;
+
+JS data types
+
+ - let
+  - let is a keyword used for creating variables.
+  - 
+
+  

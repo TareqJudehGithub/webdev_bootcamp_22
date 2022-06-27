@@ -1,0 +1,15 @@
+What is JavaScript (JS)? 
+  - A programming language that can be executed by browsers.
+  - JS is a programming language that adds interactivity to your website.
+  - JS was invented by Brendan Eich (co-founder of the Mozilla project, the Mozilla 
+    Foundation, and the Mozilla Corporation).
+  
+  What is JS syntax
+   - Rules we need to follow in order to code in a certain language.
+   - 
+
+
+JS useful tips
+ - Add a plus operator + if you needed to split a line of code:
+  let hobbies: ["Sports", "Cooking", "Reading", +
+  "Football", "Reading"];
